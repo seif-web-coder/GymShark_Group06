@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Djeddi Seif Eddine",
+      "description": "Coach en Musculation & Haltérophilie 🏋️‍♂️.",
+      "image": "/membre/seif.jpg",
+      "specialty": "Musculation et force",
+      "experience": 10,
+      "contact": "seif@gymshark.com"
+    },
+    {
+      "id": 2,
+      "name": "Boubacar Sidy Diallo",
+      "description": "Spécialiste en Cardio & Endurance 🏃‍♂️.",
+      "image": "/membre/boubacar.png",
+      "specialty": "Cardio et endurance",
+      "experience": 8,
+      "contact": "boubacar@gymshark.com"
+    },
+    {
+      "id": 3,
+      "name": "Lounis Ait Kadi",
+      "description": "Coach en CrossFit & Entraînements Fonctionnels 🔥.",
+      "image": "/membre/lounis.jpeg",
+      "specialty": "CrossFit et renforcement musculaire",
+      "experience": 7,
+      "contact": "lounis@gymshark.com"
+    },
+    {
+      "id": 4,
+      "name": "René Dumont Dtiogo Kenjio",
+      "description": "Nutritionniste Sportif & Diététique 🥗.",
+      "image": "/membre/rene.jpeg",
+      "specialty": "Nutrition sportive",
+      "experience": 5,
+      "contact": "rene@gymshark.com"
+    },
+    {
+      "id": 5,
+      "name": "Salvator Mwesha Aganze",
+      "description": "Coach en Boxe & Sports de Combat 🥊.",
+      "image": "/membre/salvator.jpeg",
+      "specialty": "Boxe et arts martiaux",
+      "experience": 12,
+      "contact": "salvator@gymshark.com"
+    }
+  ]
+  

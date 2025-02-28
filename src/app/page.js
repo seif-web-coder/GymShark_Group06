@@ -1,101 +1,71 @@
-import Image from "next/image";
+import Member from "@/components/member/Member";
+
+const members = [
+	{   id: "1",
+		name: "Djeddi Seif Eddine",
+		description: "Coach en Musculation & Haltérophilie 🏋️‍♂️.",
+		image: "/membre/seif.jpg",
+	},
+	{id: "2",
+		name: "Boubacar Sidy Diallo",
+		description: "Spécialiste en Cardio & Endurance 🏃‍♂️.",
+		image: "/membre/boubacar.png",
+	},
+	{id: "3",
+		name: "Lounis Ait Kadi",
+		description: "Coach en CrossFit & Entraînements Fonctionnels 🔥.",
+		image: "/membre/lounis.jpeg",
+	},
+	{id: "4",
+		name: "René Dumont Dtiogo Kenjio",
+		description: "Nutritionniste Sportif & Diététique 🥗.",
+		image: "/membre/rene.jpeg",
+	},
+	{id: "5",
+		name: "Salvator Mwesha Aganze",
+		description: "Coach en Boxe & Sports de Combat 🥊.",
+		image: "/membre/salvator.jpeg"
+	},
+];
 
 export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+	return (
+		<div style={{ textAlign: "center", padding: "20px" }}>
+			<h1>🏋️ Bienvenue chez GymShark - Repoussez vos limites ! 🦈</h1>
+			<p>
+				GymShark est l’espace ultime pour booster votre force, endurance et mental. 💪<br />
+				Profitez d’équipements modernes, coachs experts & programmes personnalisés.<br />
+				 Rejoignez-nous et transformez votre corps dès aujourd’hui ! 
+			</p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
-  );
+			<div style={{ marginTop: "20px", marginBottom: "40px" }}>
+				<h2> Découvrez GymShark en Action !</h2>
+				<div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+					<iframe
+						width="800"
+						height="450"
+						src="/membre/Gymshark.mp4"
+						title="Vidéo GymShark"
+						allowFullScreen
+						style={{ borderRadius: "8px", boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}
+					></iframe>
+				</div>
+			</div>
+
+			{/* Section des coachs */}
+			<h2> Rencontrez Nos Experts</h2>
+			<div
+				style={{
+					display: "flex",
+					flexWrap: "wrap",
+					gap: "20px",
+					justifyContent: "center",
+				}}
+			>
+				{members.map((member, index) => (
+					<Member key={index} {...member} />
+				))}
+			</div>
+		</div>
+	);
 }

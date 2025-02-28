@@ -1,0 +1,57 @@
+[
+	{
+	  "id": 1,
+	  "date": "Saturday, 06 April | 09:30 am",
+	  "title": "Challenge Strongest Lifter 🏋️‍♂️",
+	  "location": "GymShark, Toronto",
+	  "description": "Un concours de force ultime où les participants doivent soulever leur max en Squat, Développé couché et Soulevé de terre. Les athlètes seront répartis en catégories de poids et auront trois tentatives pour chaque levée. Des prix seront offerts aux meilleurs lifteurs. Ambiance motivante et public enthousiaste garantis !",
+	  "imageUrl": "/events/event1.webp",
+	  "videoUrl": "/events/video1.mp4"
+	},
+	{
+	  "id": 2,
+	  "date": "Sunday, 12 May | 04:00 pm",
+	  "title": "Bootcamp Cardio Extrême 🏃‍♂️🔥",
+	  "location": "GymShark, Vancouver",
+	  "description": "Préparez-vous à transpirer avec notre séance de Bootcamp la plus intense ! Cette session de 90 minutes inclut du HIIT, corde à sauter, burpees, sprint et exercices fonctionnels. Encadré par nos coachs spécialisés, ce défi testera votre endurance cardiovasculaire et votre explosivité. Venez dépasser vos limites !",
+	  "imageUrl": "/events/event2.jpg",
+	  "videoUrl": "/events/video2.mp4"
+	},
+	{
+	  "id": 3,
+	  "date": "Friday, 21 June | 08:45 am",
+	  "title": "Tournoi de Boxe 'Fight & Fitness' 🥊",
+	  "location": "GymShark, Montreal",
+	  "description": "Un tournoi amateur de boxe où la technique, les réflexes et la puissance seront mis à l'épreuve. Les participants s'affronteront en rounds de 3 minutes sous l'encadrement de coachs professionnels. Séances d'entraînement et échauffements inclus avant chaque match. Équipement de protection obligatoire, ambiance dynamique et fair-play assurés !",
+	  "imageUrl": "/events/event3.jpg",
+	  "videoUrl": "/events/video3.mp4"
+	},
+	{
+	  "id": 4,
+	  "date": "Sunday, 28 July | 10:15 am",
+	  "title": "Séminaire Nutrition & Performance 🥗",
+	  "location": "GymShark, Calgary",
+	  "description": "Un séminaire éducatif dirigé par notre nutritionniste sportif où vous apprendrez à optimiser votre alimentation pour la performance et la récupération. Découvrez des stratégies alimentaires adaptées aux sportifs, des conseils pratiques pour la prise de masse ou la sèche, et dégustez des repas fitness conçus pour booster vos entraînements.",
+	  "imageUrl": "/events/event4.jpg",
+	  "videoUrl": "/events/video4.mp4"
+	},
+	{
+	  "id": 5,
+	  "date": "Thursday, 19 September | 05:30 pm",
+	  "title": "Soirée Fitness & DJ Set 🎶💃",
+	  "location": "GymShark, Ottawa",
+	  "description": "Une soirée unique combinant fitness et musique ! Au programme : entraînements en musique avec DJ live, challenges de squat et cardio, ainsi qu'une session de danse fitness pour terminer en beauté. Une ambiance électrisante où sport et fun se mélangent pour une expérience inoubliable.",
+	  "imageUrl": "/events/event5.jpg",
+	  "videoUrl": "/events/video5.mp4"
+	},
+	{
+	  "id": 6,
+	  "date": "Monday, 25 et 26 November | 07:00 pm",
+	  "title": "Warrior Obstacle Race 🏃‍♂️💪",
+	  "location": "GymShark, Edmonton",
+	  "description": "Un parcours du combattant inspiré des courses Spartan ! Venez affronter des obstacles tels que l'escalade de murs, des courses à travers la boue, des tractions sur cordes et le transport de pneus. Un événement idéal pour tester votre endurance physique et mentale, en solo ou en équipe. Préparez-vous à repousser vos limites !",
+	  "imageUrl": "/events/event6.jpg",
+	  "videoUrl": "/events/video6.mp4"
+	}
+  ]
+  

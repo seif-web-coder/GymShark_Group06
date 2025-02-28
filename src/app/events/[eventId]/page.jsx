@@ -1,0 +1,40 @@
+import eventData from "@/data/eventData.json"; // Importer les événements
+import styles from "./eventDetails.module.css"; // Importer le module de styles
+
+const pageEventDetail = async ({ params }) => {
+	const eventId = params.eventId;
+
+	// Convertir eventId en nombre et chercher l'événement
+	const event = eventData.find((e) => e.id === parseInt(eventId));
+
+	// Si l'événement n'existe pas, afficher un message
+	if (!event) {
+		return <p className={styles.notFound}>Événement non trouvé !</p>;
+	}
+
+	return (
+		<div className={styles.container}>
+			<h1>{event.title}</h1>
+
+			
+			<iframe
+				width="100%"
+				height="400"
+				src={event.videoUrl.replace("watch?v=", "embed/")}
+				title={event.title}
+				allowFullScreen
+				className={styles.videoFrame}
+			></iframe>
+
+			<p>
+				<strong>Date :</strong> {event.date}
+			</p>
+			<p>
+				<strong>Lieu :</strong> {event.location}
+			</p>
+			<p className={styles.description}>{event.description}</p>
+		</div>
+	);
+};
+
+export default pageEventDetail;
