@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-	title: "Bonjour !",
-	description: "Ici une nouvelle description de notre app",
+	title: "GymShark",
+	description: "GymShark-Salle de Sport",
 };
 
 export default function RootLayout({ children }) {
