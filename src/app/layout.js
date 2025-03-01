@@ -15,6 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata = {
 	title: "GymShark",
 	description: "GymShark-Salle de Sport",
+	//Etudiants ayant participe au code
+	//AGANZE MWESHA SALVATOR
+	//SEIF EDDINE DJEDI
+	// RENE DUMONT
+	//BOUBACAR SIDY
+	//LOUNIS AIT KADI
 };
 
 export default function RootLayout({ children }) {
